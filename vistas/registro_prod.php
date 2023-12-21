@@ -11,44 +11,49 @@
                     <li class="breadcrumb-item active">Registro</li>
                 </ol>
             </div><!-- /.col -->
-
-            <div class="card card-primary">
+            <br><br>
+            <div class="card card-primary  col-lg-6">
               <div class="card-header">
-                <h3 class="card-title">La Yohanita bombon</h3>
+                <h3 class="card-title">Ingrese datos de producto</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
               <form>
-                <div class="card-body col-sm-6">
+                <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <label for="exampleInputEmail1">Código</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese código de producto">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <div class="input-group">
-                      <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="exampleInputFile">
-                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                      </div>
-                      <div class="input-group-append">
-                        <span class="input-group-text">Upload</span>
-                      </div>
-                    </div>
+                    <label for="exampleInputPassword1">Descripción</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese descripción">
                   </div>
-                  <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Precio</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese precio">
                   </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Stock</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese stock">
+                  </div>
+                  <div class="form-group">
+                    <label>Proveedor</label>
+                    <select class="form-control select2" style="width: 100%;">
+                      <option selected="selected">Yohana</option>
+                      <option>Alexis</option>
+                      <option>Yohana</option>
+                      <option>Pablo</option>
+                      <option>Noah</option>
+                      <option>Doña Rosa</option>
+                      <option>Doña Lili</option>
+                    </select>
+                </div>
+                  
                 </div>
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary btn-success float-right">Registrar</button>
                 </div>
               </form>
             </div>
