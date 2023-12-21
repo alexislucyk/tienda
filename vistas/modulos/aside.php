@@ -18,7 +18,7 @@
                         <li class="nav-item">
                             <a style="cursor:pointer" class="nav-link active"
                                 onclick="CargarContenido('vistas/dashboard.php','content-wrapper')">
-                                <i class="nav-icon fas fa-th"></i>
+                                <i class="far fa-circle nav-icon"></i>
                                 <p>
                                     Principal
                                 </p>
@@ -27,13 +27,20 @@
 
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-tachometer-alt"></i>
+                                <i class="far fa-circle nav-icon"></i>
                                 <p>
                                     Productos
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a style="cursor:pointer;" class="nav-link"
+                                        onclick="CargarContenido('vistas/registro_prod.php','content-wrapper')">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Registro</p>
+                                    </a>
+                                </li>
                                 <li class="nav-item">
                                     <a style="cursor:pointer;" class="nav-link"
                                         onclick="CargarContenido('vistas/productos.php','content-wrapper')">
@@ -57,11 +64,12 @@
                                 </li>
                             </ul>
                         </li>
+                        
 
                         <li class="nav-item">
                             <a style="cursor:pointer;" class="nav-link"
                                 onclick="CargarContenido('vistas/ventas.php','content-wrapper')">
-                                <i class="nav-icon fas fa-th"></i>
+                                <i class="far fa-circle nav-icon"></i>
                                 <p>
                                     Ventas
                                 </p>
@@ -70,7 +78,7 @@
                         <li class="nav-item">
                             <a style="cursor:pointer;" class="nav-link"
                                 onclick="CargarContenido('vistas/compras.php','content-wrapper')">
-                                <i class="nav-icon fas fa-th"></i>
+                                <i class="far fa-circle nav-icon"></i>
                                 <p>
                                     Compras
                                 </p>
@@ -79,7 +87,7 @@
                         <li class="nav-item">
                             <a style="cursor:pointer;" class="nav-link"
                                 onclick="CargarContenido('vistas/reportes.php','content-wrapper')">
-                                <i class="nav-icon fas fa-th"></i>
+                                <i class="far fa-circle nav-icon"></i>
                                 <p>
                                     Reportes
                                 </p>
@@ -88,7 +96,7 @@
                         <li class="nav-item">
                             <a style="cursor:pointer;" class="nav-link"
                                 onclick="CargarContenido('vistas/configuraciones.php','content-wrapper')">
-                                <i class="nav-icon fas fa-th"></i>
+                                <i class="far fa-circle nav-icon"></i>
                                 <p>
                                     Configuraciones
                                 </p>
